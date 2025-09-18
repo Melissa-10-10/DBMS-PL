@@ -31,6 +31,7 @@ We applied the following constraints:
 We performed four types of joins to combine data from HOTEL and ROOM tables:
 
 * **INNER JOIN** – Display only hotels that have rooms.
+  ![image alt](https://github.com/Melissa-10-10/DBMS-PL/blob/1e0a5c282fc3e6378f26ba216bfc541a78e9ba3a/Screenshot%20(204).png)
 * **LEFT JOIN** – Display all hotels, including those with no rooms.
 * **RIGHT JOIN** – Display all rooms, including those not linked to any hotel.
 * **FULL OUTER JOIN** – Combine all data from both tables, matching where possible.
