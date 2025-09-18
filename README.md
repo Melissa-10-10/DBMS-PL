@@ -59,7 +59,7 @@ CREATE INDEX idx_room_hotel ON ROOM(H_ID);
 
 We created a view for simplified access to hotel-room data:
 
-![imagealt](https://github.com/Melissa-10-10/DBMS-PL/blob/e7f3a6284704b027eae7e261d0bc2b87cc42a904/Screenshot%20(210).png)
+![imagealt](https://github.com/Melissa-10-10/DBMS-PL/blob/6b1bf5246d420290b83301a35985801819093aed/Screenshot%20(211).png)
 
 This view makes it easy to query hotel and room information together.
 
