@@ -39,13 +39,6 @@ We performed four types of joins to combine data from HOTEL and ROOM tables:
 * **FULL OUTER JOIN** – Combine all data from both tables, matching where possible.
   ![IMAGE ALT](https://github.com/Melissa-10-10/DBMS-PL/blob/5cb99858b517a97d18add6fb20102c7105b12230/Screenshot%20(207).png)
 
-### Example Query (INNER JOIN):
-
-```sql
-SELECT r.R_ID, r.R_NUMBER, h.H_NAME, h.H_LOCATION
-FROM ROOM r
-INNER JOIN HOTEL h ON r.H_ID = h.H_ID;
-```
 
 ## 3. Index Creation
 
@@ -67,12 +60,7 @@ This view makes it easy to query hotel and room information together.
 
 We generated a report showing the number of rooms in each hotel:
 
-```sql
-SELECT h.H_NAME, COUNT(r.R_ID) AS Total_Rooms
-FROM HOTEL h
-LEFT JOIN ROOM r ON h.H_ID = r.H_ID
-GROUP BY h.H_NAME;
-```
+![image alt](https://github.com/Melissa-10-10/DBMS-PL/blob/98d84b547ddb32cc0bb4f20b9d258e27c574d1ea/Screenshot%20(212).png)
 
 This query provides a clear summary of room distribution across hotels.
 
@@ -83,7 +71,4 @@ This query provides a clear summary of room distribution across hotels.
 * The view made querying hotel and room data much easier.
 * The final report shows which hotels have the most rooms.
 
----
 
-📸 **Screenshots:**
-(Add your SQL Developer screenshots here: table structures, join results, view results, and final report output.)
