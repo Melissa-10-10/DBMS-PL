@@ -59,12 +59,7 @@ CREATE INDEX idx_room_hotel ON ROOM(H_ID);
 
 We created a view for simplified access to hotel-room data:
 
-```sql
-CREATE OR REPLACE VIEW HotelRoomView AS
-SELECT h.H_ID, h.H_NAME, h.H_LOCATION, r.R_ID, r.R_NUMBER, r.RT_ID
-FROM HOTEL h
-LEFT JOIN ROOM r ON h.H_ID = r.H_ID;
-```
+![imagealt](https://github.com/Melissa-10-10/DBMS-PL/blob/e7f3a6284704b027eae7e261d0bc2b87cc42a904/Screenshot%20(210).png)
 
 This view makes it easy to query hotel and room information together.
 
