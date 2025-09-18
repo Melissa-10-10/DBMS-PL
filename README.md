@@ -23,6 +23,7 @@ We applied the following constraints:
 
 * Primary Key on HOTEL.H\_ID and ROOM.R\_ID
 * Foreign Key constraint linking ROOM.H\_ID → HOTEL.H\_ID
+  ![Image alt](https://github.com/Melissa-10-10/DBMS-PL/blob/94e62e34782f7774dae360bfb54950d9cb8bb658/Screenshot%20(202).png)
 
 ## 2. SQL Joins
 
