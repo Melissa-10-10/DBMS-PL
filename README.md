@@ -63,6 +63,7 @@ We generated a report showing the number of rooms in each hotel:
 ![image alt](https://github.com/Melissa-10-10/DBMS-PL/blob/98d84b547ddb32cc0bb4f20b9d258e27c574d1ea/Screenshot%20(212).png)
 
 This query provides a clear summary of room distribution across hotels.
+![image alt](https://github.com/Melissa-10-10/DBMS-PL/blob/824ca10be39cf349f90c52f6cd85c968f574f993/Screenshot%20(213).png)
 
 ## 6. Results & Observations
 
