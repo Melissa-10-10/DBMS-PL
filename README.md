@@ -35,6 +35,7 @@ We performed four types of joins to combine data from HOTEL and ROOM tables:
 * **LEFT JOIN** – Display all hotels, including those with no rooms.
   ![image alt](https://github.com/Melissa-10-10/DBMS-PL/blob/df001e79a89e7ab32e1df9b2c96d84f3f711740e/Screenshot%20(206).png)
 * **RIGHT JOIN** – Display all rooms, including those not linked to any hotel.
+  ![image alt](https://github.com/Melissa-10-10/DBMS-PL/blob/9c6e90eb76dbc9cfdbedd207ae4e92b9bee61a9d/Screenshot%20(205).png)
 * **FULL OUTER JOIN** – Combine all data from both tables, matching where possible.
 
 ### Example Query (INNER JOIN):
